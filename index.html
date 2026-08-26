@@ -317,12 +317,47 @@
             <div class="contact-placeholder"><i class="fas fa-link"></i><span>Social profiles<br><strong><a href="https://www.facebook.com/md.jabirkhan.71066" target="_blank" rel="noopener">Facebook</a> • <a href="https://www.linkedin.com/in/jabir-khan-050077296" target="_blank" rel="noopener">LinkedIn</a> • <a href="https://github.com/jabirkhan07" target="_blank" rel="noopener">GitHub</a></strong></span></div>
           </div>
           <div class="contact-form glass-card">
-            <form id="contactForm">
-              <input type="text" name="name" placeholder="Your Name" required />
-              <input type="email" name="email" placeholder="Your Email" required />
-              <textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
-              <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
-            </form>
+            <form action="https://formsubmit.co/mdjabirkhan4141@gmail.com" method="POST">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    >
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    >
+
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Tell me about your project..."
+        required
+    ></textarea>
+
+    <input
+        type="hidden"
+        name="_subject"
+        value="New Portfolio Contact Message"
+    >
+
+    <input
+        type="hidden"
+        name="_captcha"
+        value="false"
+    >
+
+    <button type="submit" class="btn btn-primary">
+        Send Message
+        <i class="fas fa-paper-plane"></i>
+    </button>
+
+</form>
             <p id="formNote" class="form-note">Send your message by email.</p>
           </div>
         </div>
